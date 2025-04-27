@@ -1,0 +1,22 @@
+{
+    "testId": "d71f3283-7bc7-4d85-a0cc-b36598db48f2",
+    "name": "Viral Byte Detector",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
